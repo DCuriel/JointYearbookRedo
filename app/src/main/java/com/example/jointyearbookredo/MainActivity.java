@@ -28,14 +28,16 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(getApplicationContext(),borasactivity.class);
         startActivity(i);
     }
+
  /*Uncomment When you input the Activity .class name
-    public void toYearbook(View v){
+   
+    public void toLuthersYearbook(View v){
+
         Intent i = new Intent(getApplicationContext(),.class);
         startActivity(i);
     }
 
      */
-
 
     //End Activity Methods
 

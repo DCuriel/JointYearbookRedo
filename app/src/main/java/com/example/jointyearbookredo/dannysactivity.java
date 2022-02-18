@@ -26,7 +26,7 @@ public class dannysactivity extends AppCompatActivity {
 
     }
 
-    public void nextActivity(View v){
+    public void toDannysActivity2(View v){
         Intent i = new Intent(getApplicationContext(),dannysactivity2.class);
         startActivity(i);
     }
