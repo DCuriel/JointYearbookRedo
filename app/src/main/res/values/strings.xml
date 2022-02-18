@@ -8,4 +8,6 @@
     <string name="button1">Button</string>
     <string name="button2">Button</string>
     <string name="hello_there">Hello There!</string>
+    <string name="this_is_jericho_from_the_hit_show_arcane">This is Jericho from the hit show Arcane</string>
+    <string name="todo">TODO</string>
 </resources>
