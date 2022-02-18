@@ -23,21 +23,11 @@
         <activity
             android:name=".dannysactivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action." />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
 
         <activity
             android:name=".dannysactivity2"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
 
     </application>

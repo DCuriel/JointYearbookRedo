@@ -29,13 +29,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void toYearbook(View v){
+    public void toLuthersYearbook(View v){
         Intent i = new Intent(getApplicationContext(),.class);
         startActivity(i);
     }
 
      */
-
 
     //End Activity Methods
 
