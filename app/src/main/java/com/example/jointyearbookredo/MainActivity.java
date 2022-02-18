@@ -22,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    /* Uncomment When you input the Activity .class name
+
 
     public void toBorasYearbook(View v){
-        Intent i = new Intent(getApplicationContext(),.class);
+        Intent i = new Intent(getApplicationContext(),borasactivity.class);
         startActivity(i);
     }
-
+ /*Uncomment When you input the Activity .class name
     public void toYearbook(View v){
         Intent i = new Intent(getApplicationContext(),.class);
         startActivity(i);

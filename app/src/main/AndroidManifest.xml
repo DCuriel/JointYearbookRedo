@@ -40,6 +40,25 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".borasactivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action." />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".borasactivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action." />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
