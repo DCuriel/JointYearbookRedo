@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/SLOP3"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/SLOP3"
         android:layout_width="215dp"
         android:layout_height="227dp"
         android:layout_marginStart="98dp"
@@ -73,5 +73,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/slop3"
         android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:text="Share Image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SLOP3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
