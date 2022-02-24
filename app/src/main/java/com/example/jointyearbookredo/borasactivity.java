@@ -30,4 +30,9 @@ public class borasactivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void toMainPage(View v){
+        Intent i = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(i);
+    }
+
 }

@@ -48,7 +48,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="63dp"
                 android:layout_weight="1"
-                android:text="I am Bora Dibra. I am majoring in Computer Science and Biology." />
+                android:background="#3395E3"
+                android:text="I am Bora Dibra. I am majoring in Computer Science and Biology."
+                android:textSize="12sp"
+                android:textStyle="bold|italic" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -76,7 +79,8 @@
                 android:layout_marginEnd="162dp"
                 android:layout_marginRight="162dp"
                 android:onClick="toBorasActivity2"
-                android:text="@string/button"
+                android:text="Graduation Page"
+                android:textSize="12sp"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Space
@@ -98,7 +102,9 @@
                 android:layout_marginLeft="161dp"
                 android:layout_marginEnd="162dp"
                 android:layout_marginRight="162dp"
-                android:text="@string/button" />
+                android:onClick="toMainPage"
+                android:text="Main Page"
+                android:textSize="12sp" />
         </LinearLayout>
 
     </LinearLayout>
