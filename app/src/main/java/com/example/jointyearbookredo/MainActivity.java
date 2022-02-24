@@ -51,15 +51,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
- /*Uncomment When you input the Activity .class name
+
    
     public void toLuthersYearbook(View v){
 
-        Intent i = new Intent(getApplicationContext(),.class);
+        Intent i = new Intent(getApplicationContext(),lutheractivity.class);
         startActivity(i);
     }
 
-     */
+
 
     //End Activity Methods
 
